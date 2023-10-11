@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+
+body {
+    background-color: #cefcff;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-image-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border-radius: 0 0 50px 50px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+p{
+    font-family: 'Moon Dance', cursive;
+    font-size: 28px;
+    border: 2px solid #32a1ce;
+    border-radius: 30px;
+    padding: 10px;
+    alignment: center;
+    text-align: center;
+}
+
+.App{
+    padding: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
